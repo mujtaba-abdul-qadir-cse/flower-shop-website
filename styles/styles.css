@@ -1,5 +1,5 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
 
@@ -26,6 +26,8 @@ body{
     margin-bottom: 32px;
 }
 
+/* primary button style */
+
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -36,6 +38,8 @@ body{
     padding: 20px 43px;
     gap: 10px;
 }
+
+/* Featured products section styles */
 
 .featured-title {
     color: #272727;
@@ -102,4 +106,68 @@ body{
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+
+/* services section styles */
+
+.services-info {
+    display: flex;
+    width: 1440px;
+    height: 320px;
+
+    justify-content: center;
+    margin-top: 250px;
+    margin: 200px 240px 128px 240px;
+}
+
+.image-container {
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.services-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.services-image {
+    margin-top: 86px;
+    margin-bottom: 24px;
+    width: 88px;
+    height: 88px;
+}
+
+#services-image-one {
+    width: 33%;
+}
+
+#services-image-two {
+    width: 33%;
+}
+
+#services-image-three {
+    width: 33%;
+}
+
+.services-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#services-text-one {
+    width: 372px;
+    padding-right: 20px;
+}
+#services-text-two {
+    width: 316px;
+}
+
+#services-text-three {
+    width: 202px;
 }
