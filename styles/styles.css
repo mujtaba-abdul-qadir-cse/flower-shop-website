@@ -9,7 +9,7 @@ body {
     background: rgba(229, 84, 115, 0.10);
     align-items: center;
     justify-content: space-between;
-    padding: 50px 240px 180px 0px;
+    padding: 50px 240px 180px 160px;
 }
 
 .banner-title {
@@ -37,6 +37,9 @@ body {
     display: inline-flex;
     padding: 20px 43px;
     gap: 10px;
+}
+.flower-pic{
+    margin-left: 50px;
 }
 
 /* Featured products section styles */
