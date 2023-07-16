@@ -114,7 +114,6 @@ body {
     display: flex;
     width: 1440px;
     height: 320px;
-
     justify-content: center;
     margin-top: 250px;
     margin: 200px 240px 128px 240px;
@@ -164,10 +163,62 @@ body {
     width: 372px;
     padding-right: 20px;
 }
+
 #services-text-two {
     width: 316px;
 }
 
 #services-text-three {
     width: 202px;
+}
+
+/* Offers section */
+.offers {
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+
+
+}
+
+.offers-column {
+    width: 50%;
+    /* justify-content: center; */
+}
+
+#offers-left{
+    padding-top: 60px;
+}
+
+#offers-right{
+    /* padding-left: 100px; */
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 300px;
+ 
+}
+
+.text-primary {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 280px;
+}
+#offers-img{
+    margin: 0px 430px 100px 200px;
+}
+
+#signup{
+    margin-left: 550px;
 }
