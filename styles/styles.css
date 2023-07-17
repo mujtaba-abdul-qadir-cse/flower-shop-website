@@ -38,7 +38,8 @@ body {
     padding: 20px 43px;
     gap: 10px;
 }
-.flower-pic{
+
+.flower-pic {
     margin-left: 50px;
 }
 
@@ -189,11 +190,11 @@ body {
     /* justify-content: center; */
 }
 
-#offers-left{
+#offers-left {
     padding-top: 60px;
 }
 
-#offers-right{
+#offers-right {
     /* padding-left: 100px; */
 }
 
@@ -202,7 +203,7 @@ body {
     font-size: 40px;
     font-weight: 800;
     margin-left: 300px;
- 
+
 }
 
 .text-primary {
@@ -218,10 +219,93 @@ body {
     font-weight: 400;
     margin-left: 280px;
 }
-#offers-img{
+
+#offers-img {
     margin: 0px 430px 100px 200px;
 }
 
-#signup{
+/* sign-up button */
+#signup {
     margin-left: 550px;
+}
+
+/* instagram section */
+.instagram-info {
+    text-align: center;
+    display: block;
+}
+
+#instagram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#instagram-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#instagram-container {
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+
+#latest-deals {
+
+    height: 100%;
+    margin: 128px 240px 128px 240px;
+
+}
+
+#deals-container {
+    /* padding: 128px 240px 128px 240px; */
+    text-align: center;
+    background: url("../images/Rectangle\ 9.png");
+    height: 449px;
+    position: relative;
+    display: block;
+}
+
+#deals-title {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 520px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#deals-text {
+    position: absolute;
+    top: 40%;
+    left: 630px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#email {
+    position: absolute;
+    top: 55%;
+    left: 120px;
+    width: 1000px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+#subscribe{
+    position: absolute;
+    top: 55%;
+    left: 1150px;
 }
