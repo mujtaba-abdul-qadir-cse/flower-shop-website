@@ -17,15 +17,15 @@ body{
    
 }
 .banner-content{
-    max-width: 60%;
-    margin-left: 10%;
+    width: 50%;
+    margin-left: 5%;
     margin-right: 20px;
 
 }
 
 .banner-title {
     color: #272727;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 800;
     /* margin-bottom: 32px; */
 }
@@ -50,8 +50,12 @@ body{
     gap: 10px;
 }
 
+#banner-img-container{
+    width: 50%;
+}
+
 .flower-pic {
-    margin-left: 120px;
+    width: 100%;
 }
 
 /* Featured products section styles */
@@ -67,10 +71,10 @@ body{
 .featured-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
-    margin: 0 663px 48px 663px;
+    margin-bottom: 48px;
+
 }
 
 .featured-flowers {
@@ -83,8 +87,14 @@ body{
 .featured-flowers-pictures {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+.featured-flowers{
+    width: 33%;
 }
 
 #featured-flower-one {
@@ -127,8 +137,8 @@ body{
 
 .services-info {
     display: flex;
-    width: 1440px;
-    height: 320px;
+    /* width: 1440px;
+    height: 320px; */
     justify-content: center;
     margin-top: 250px;
     margin: 200px 240px 128px 240px;
@@ -151,8 +161,7 @@ body{
 .services-image {
     margin-top: 86px;
     margin-bottom: 24px;
-    width: 88px;
-    height: 88px;
+
 }
 
 #services-image-one {
@@ -197,26 +206,33 @@ body{
 }
 
 .offers-column {
-    width: 50%;
     /* justify-content: center; */
 }
 
 #offers-left {
     padding-top: 60px;
+    margin-left: 5%;
+    width: 55%;
+}
+
+#offers-right {
+    /* margin-top: 20px; */
+    width: 40%;
+    margin-right: 5%;
 }
 
 
 .offer-title {
     color: #272727;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 800;
-    margin-left: 300px;
+    margin-left: 10%;
 
 }
 
 .text-primary {
     color: #E55473;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 800;
 }
 
@@ -225,7 +241,7 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 280px;
+    margin-left: 5%;
 }
 
 #offers-img {
@@ -234,7 +250,8 @@ body{
 
 /* sign-up button */
 #signup {
-    margin-left: 550px;
+    margin-left: 40%;
+    text-align: center;
 }
 
 /* instagram section */
@@ -258,19 +275,23 @@ body{
 }
 
 #instagram-container {
-    margin-left: 240px;
-    margin-right: 240px;
+    /* margin-left: 240px; */
+    /* margin-right: 240px; */
     margin-top: 48px;
     display: flex;
-    gap: 24px;
+    gap: 10px;
+    text-align: center;
+    justify-items: center;
 }
 
 /* Latest Deals section */
 
 #latest-deals {
-
+    
     height: 100%;
-    margin: 128px 240px 128px 240px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 
 }
 
@@ -285,8 +306,10 @@ body{
 
 #deals-title {
     position: absolute;
-    margin-top: 122px;
-    margin-left: 520px;
+    /* margin-top: 122px; */
+    /* margin-left: 520px; */
+    top: 10%;
+    left: 38%;
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -296,7 +319,7 @@ body{
 #deals-text {
     position: absolute;
     top: 40%;
-    left: 630px;
+    left: 45%;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -306,8 +329,8 @@ body{
 #email {
     position: absolute;
     top: 55%;
-    left: 120px;
-    width: 1000px;
+    left: 10%;
+    width: 800px;
     height: 64px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -317,15 +340,17 @@ body{
 #subscribe {
     position: absolute;
     top: 55%;
-    left: 1150px;
+    left: 75%;
 }
 
 /* footer styles */
 #footer-content {
+    margin-top: 128px;
     position: relative;
-    margin: 128px 240px 128px 240px;
+    
+    /* margin: 128px 240px 128px 240px; */
     background: #111010;
-    width: 1440px;
+    /* width: 1300px; */
     height: 500px;
     text-align: center;
 }
